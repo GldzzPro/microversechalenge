@@ -14,5 +14,37 @@
 }
 #projects{
 display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+row-gap: 5vh;
+width: 100vw;
+
+background-color: brown;
+color: white;
+
 
 }
+
+.projects-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+grid-gap: 4rem;
+width: 80%;
+max-width: 1280px;
+margin: 0 auto;
+margin-bottom: 6rem;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.description{
+    width: 300px;
+    background-color: #313841;
+    text-align: center;
+    padding: 5%;
+}
+
