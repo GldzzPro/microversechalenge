@@ -11,6 +11,7 @@
     color : white;
     height: 100vh;
     width: 100vw;
+    font-size: 2.5rem;
 }
 #projects{
 display: flex;
@@ -49,6 +50,7 @@ img {
 }
 .projects-section-header{
     padding-top: 20px;
+    font-size: 3rem;
 }
 .nav {
     display: flex;
@@ -74,4 +76,17 @@ ul {
     display: block;
     font-size: 2.2rem;
     padding: 2rem;
+}
+
+@media only screen and (max-width: 850px){
+	/*Small smartphones [325px -> 425px]*/
+    
+    .nav-list a {
+       
+        font-size: 1.2rem;
+        
+    }
+    h1 , h2 {
+        font-size: 1.8rem;
+    }
 }
