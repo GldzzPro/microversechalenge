@@ -78,6 +78,12 @@ ul {
     padding: 2rem;
 }
 
+#contact{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
 @media only screen and (max-width: 850px){
 	/*Small smartphones [325px -> 425px]*/
     
